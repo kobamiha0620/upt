@@ -1,0 +1,74 @@
+$basic: #444444;
+$bc: #FF583B;
+$spbp: 768px;
+$pcbp: 1080px;
+$tabw: 1024px;
+$bg: #F7F8F8;
+/* ANIMATION*/
+@keyframes fadeInAnime{
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+//フェードイ
+.fadein00 {
+    animation-name: fadeInAnime;
+    animation-duration:3s;
+    animation-delay: 0.5s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+
+    animation-iteration-count: 1;
+}
+    
+.fadein01 {
+    animation-name: fadeInAnime;
+    animation-duration:3s;
+    animation-delay: 1.0s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+
+    animation-iteration-count: 1;
+
+}
+
+.fadein02 {
+    animation-name: fadeInAnime;
+    animation-duration:3s;
+    animation-delay: 1.5s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+
+    animation-iteration-count: 1;
+
+}
+    
+.fadein03 {
+    animation-name: fadeInAnime;
+    animation-duration:3s;
+    animation-delay: 2.0s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+
+    animation-iteration-count: 1;
+
+}
+    
+.fadein04 {
+    animation-name: fadeInAnime;
+    animation-duration:3s;
+    animation-delay: 2.5s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+
+    animation-iteration-count: 1;
+
+}
+    
+
+
