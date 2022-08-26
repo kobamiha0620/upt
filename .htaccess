@@ -1,5 +1,0 @@
-
-AuthType Basic
-AuthName "Basic authentication."
-AuthUserFile /home/users/2/main.jp-25962cd4bfd3fc58/web/.htpasswd
-require valid-user

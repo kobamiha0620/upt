@@ -6,7 +6,7 @@ $(function() {
 		canvas = null,
 		context = null,
 		vars = null,
-		points = 8,
+		points = 15,
 		viscosity = 20,
 		mouseDist = 70,
 		damping = 0.05,
@@ -67,7 +67,7 @@ $(function() {
 	 */
 	function initButton() {
 		// Get button
-		var button = $('.btn-liquid');
+		var button = $('.btn-liquids');
 		var buttonWidth = button.width();
 		var buttonHeight = button.height();
 
